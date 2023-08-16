@@ -50,10 +50,15 @@ input[type=checkbox]:focus {
   --bs-bg-opacity: .3;
 }
 
-.details-btn {
+.default-btn {
   background-color: var(--marrom-claro);
+  color: black;
 }
 
-.details-btn:hover {
+.default-btn:hover {
   background-color: var(--marrom-escuro);
+}
+
+.input-range::-webkit-slider-thumb {
+  background-color: var(--marrom-claro);
 }
